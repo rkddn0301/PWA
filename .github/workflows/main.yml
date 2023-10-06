@@ -15,9 +15,6 @@ jobs:
         with:
           node-version: '16.13'
           cache-dependency-path: ./client/package-lock.json
-
-      - name: Install nvm
-        run: nvm install v18.9.0
             
       - name: Install Dependencies
         run: npm install
